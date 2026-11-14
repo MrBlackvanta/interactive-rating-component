@@ -1,4 +1,4 @@
-import { StarIcon } from "@/components/icons";
+import { StarBadge } from "@/components/ui";
 import { RATINGS, type Rating } from "@/data";
 import { useId } from "react";
 
@@ -18,9 +18,7 @@ export default function RatingForm({ onSubmit }: RatingFormProps) {
 
   return (
     <form action={submitRating} className="px-6 pt-6 pb-8 sm:px-9 sm:py-8">
-      <div className="grid size-10 place-items-center rounded-full bg-well text-accent sm:size-12">
-        <StarIcon className="h-auto w-3.5 sm:w-4" />
-      </div>
+      <StarBadge />
 
       <h1
         id={headingId}
@@ -58,10 +56,7 @@ export default function RatingForm({ onSubmit }: RatingFormProps) {
         ))}
       </fieldset>
 
-      <button
-        type="submit"
-        className="mt-6 h-11 w-full rounded-full bg-action text-label font-bold text-ink uppercase transition-colors hover:bg-ink hover:text-action sm:mt-8 sm:text-label-lg"
-      >
+      <button type="submit" className="mt-6 v-button sm:mt-8">
         Submit
       </button>
     </form>

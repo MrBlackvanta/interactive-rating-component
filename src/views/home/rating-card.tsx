@@ -9,7 +9,7 @@ export default function RatingCard() {
   const [rating, setRating] = useState<Rating | null>(null);
 
   return (
-    <div className="w-full max-w-82 rounded-card bg-radial-[100%_100%_at_top] from-card-glow to-card sm:max-w-103 sm:rounded-card-lg">
+    <div className="v-card">
       {rating === null ? (
         <RatingForm onSubmit={setRating} />
       ) : (

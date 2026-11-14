@@ -56,6 +56,14 @@
   --radius-card-lg: 1.875rem;
 }
 
+@utility v-card {
+  @apply w-full max-w-82 rounded-card bg-radial-[100%_100%_at_top] from-card-glow to-card sm:max-w-103 sm:rounded-card-lg;
+}
+
+@utility v-button {
+  @apply grid h-11 w-full place-items-center rounded-full bg-action text-label font-bold text-ink uppercase transition-colors hover:bg-ink hover:text-action sm:text-label-lg;
+}
+
 @layer base {
   html {
     @apply overflow-y-scroll;
