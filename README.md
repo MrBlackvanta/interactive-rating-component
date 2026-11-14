@@ -1,39 +1,21 @@
-# Frontend Mentor - Interactive rating component
+# Rapport
 
-![Design preview for the Interactive rating component coding challenge](desktop-preview.jpg)
+My solution to the [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) challenge on Frontend Mentor.
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![](./screenshot.webp)
 
-## Table of contents
+- Live: https://interactive-rating-component.abdelrhman-ahmed8881.workers.dev
+- Code: https://github.com/MrBlackvanta/Interactive-rating-component
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+## Built with
 
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
-- See hover and focus states for all interactive elements on the page
-
-### Links
-
-- Solution URL: [Github](https://github.com/MrBlackvanta/Interactive-rating-component-main)
-- Live Site URL: [Live](hhttps://app.netlify.com/sites/irc-vanta/overview)
-
-### Built with
-
-- [Sass Modules](https://sass-lang.com/) - For styles
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
 ## Author
 
-- Frontend Mentor - [@MrBlackvanta](https://www.frontendmentor.io/profile/MrBlackvanta)
-- GitHub - [@MrBlackvanta](https://github.com/MrBlackvanta)
-
+- [LinkedIn](https://www.linkedin.com/in/abdelrhman-vanta/)
+- [UpWork](https://www.upwork.com/freelancers/mrblackvanta)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/MrBlackvanta)

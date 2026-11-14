@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@source not "../../*.md";
+@source not "../../lint";
+@source not "../**/*.test.ts";
+@source not "../**/*.test.tsx";
+
+@theme inline {
+  --font-sans: var(--font-overpass), ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme {
+  --color-*: initial;
+  --color-page: #131518;
+  --color-ink: #fff;
+}
+
+@layer base {
+  html {
+    @apply overflow-y-scroll;
+  }
+
+  body {
+    @apply bg-page text-ink;
+  }
+
+  button:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ink;
+  }
+}
