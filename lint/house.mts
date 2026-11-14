@@ -108,9 +108,9 @@ function restrictedClasses(css: string) {
         "No bare form for this value: round to a whole pixel (the 0.25 scale) or add a @theme token.",
     },
     {
-      pattern: "^(.*bg-(?:linear|radial|conic)(?:-[^/]*)?)$",
+      pattern: "^(.*bg-(?:linear|radial|conic)(?:-[^/[(]*)?)$",
       message:
-        "Figma blends gradients in sRGB and Tailwind in oklab, so every midpoint drifts: add /srgb.",
+        "Figma blends gradients in sRGB and a bare Tailwind gradient in oklab, so every midpoint drifts: add /srgb.",
       fix: "$1/srgb",
     },
     ...gradientVariables(css).map((name) => ({
