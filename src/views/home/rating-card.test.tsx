@@ -41,7 +41,7 @@ describe("RatingCard", () => {
 
     const heading = await screen.findByRole("heading", { name: "Thank you!" });
 
-    expect(screen.getByText("You selected 4 out of 5")).toBeInTheDocument();
+    expect(heading).toHaveAccessibleDescription("You selected 4 out of 5");
     expect(heading).toHaveFocus();
     expect(screen.queryByRole("radio")).toBeNull();
   });

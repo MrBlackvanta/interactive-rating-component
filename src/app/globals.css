@@ -61,7 +61,7 @@
 }
 
 @utility v-button {
-  @apply grid h-11 w-full place-items-center rounded-full bg-action text-label font-bold text-ink uppercase transition-colors hover:bg-ink hover:text-action sm:text-label-lg;
+  @apply grid h-11 w-full place-items-center rounded-full bg-action text-label font-bold text-ink uppercase transition-colors hover:bg-ink hover:text-action sm:text-label-lg forced-colors:border-2;
 }
 
 @layer base {

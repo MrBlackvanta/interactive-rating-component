@@ -42,7 +42,7 @@ export default function RatingForm({ onSubmit }: RatingFormProps) {
         {RATINGS.map((score) => (
           <label
             key={score}
-            className="grid aspect-square place-items-center rounded-full bg-well text-rating font-bold text-subtle transition-colors not-has-checked:hover:bg-action not-has-checked:hover:text-ink has-checked:bg-selected has-checked:text-ink has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-ink sm:text-rating-lg"
+            className="grid aspect-square place-items-center rounded-full bg-well text-rating font-bold text-subtle transition-colors not-has-checked:hover:bg-action not-has-checked:hover:text-ink has-checked:bg-selected has-checked:text-ink has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-ink sm:text-rating-lg forced-colors:border-2 forced-colors:has-checked:bg-[Highlight] forced-colors:has-checked:text-[HighlightText] forced-colors:has-checked:forced-color-adjust-none"
           >
             <input
               type="radio"
