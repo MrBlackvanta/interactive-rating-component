@@ -16,7 +16,10 @@
   --color-well: #262e38;
   --color-ink: #fff;
   --color-muted: #969fad;
+  --color-subtle: #8b95a4;
+  --color-selected: #6c7789;
   --color-accent: #fc7614;
+  --color-action: #c55403;
 
   --tracking-rating: 0.0125em;
   --tracking-label: 0.13em;
