@@ -11,7 +11,46 @@
 @theme {
   --color-*: initial;
   --color-page: #131518;
+  --color-card: #181e27;
+  --color-card-glow: #232a34;
+  --color-well: #262e38;
   --color-ink: #fff;
+  --color-muted: #969fad;
+  --color-accent: #fc7614;
+
+  --tracking-rating: 0.0125em;
+  --tracking-label: 0.13em;
+
+  --text-heading: 1.5rem;
+  --text-heading--line-height: 2.3125rem;
+
+  --text-heading-lg: 1.75rem;
+  --text-heading-lg--line-height: 2.6875rem;
+
+  --text-body: 0.875rem;
+  --text-body--line-height: 1.375rem;
+
+  --text-body-lg: 0.9375rem;
+  --text-body-lg--line-height: 1.5rem;
+
+  --text-rating: 0.875rem;
+  --text-rating--line-height: 1.5rem;
+  --text-rating--letter-spacing: var(--tracking-rating);
+
+  --text-rating-lg: 1rem;
+  --text-rating-lg--line-height: 1.5rem;
+  --text-rating-lg--letter-spacing: var(--tracking-rating);
+
+  --text-label: 0.875rem;
+  --text-label--line-height: 1.125rem;
+  --text-label--letter-spacing: var(--tracking-label);
+
+  --text-label-lg: 0.9375rem;
+  --text-label-lg--line-height: 1.1875rem;
+  --text-label-lg--letter-spacing: var(--tracking-label);
+
+  --radius-card: 0.9375rem;
+  --radius-card-lg: 1.875rem;
 }
 
 @layer base {
